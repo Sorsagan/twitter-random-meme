@@ -1,0 +1,31 @@
+{
+    "name": "synitecht",
+    "version": "0.0.1",
+    "description": "Beep beep tweet!",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cron": "^1.8.2",
+        "dotenv": "^16.0.1",
+        "express": "^4.14.0",
+        "fs": "^0.0.1-security",
+        "random-jokes-api": "^1.5.9",
+        "random-memes": "^3.1.7",
+        "request": "^2.88.2",
+        "twit": "^2.1.0",
+        "txtgen": "^3.0.2"
+    },
+    "repository": {
+        "url": ""
+    },
+    "keywords": [
+        "node",
+        "glitch",
+        "twitter",
+        "twitterbot",
+        "bot"
+    ],
+    "license": "MIT"
+}
