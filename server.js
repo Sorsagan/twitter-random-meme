@@ -8,10 +8,10 @@ var x = 0;
 var Stream = require("stream").Transform;
 
 var T = new Twit({
-  consumer_key: "",
-  consumer_secret: "",
-  access_token: "",
-  access_token_secret: "",
+  consumer_key: "YOUR API KEY HERE",
+  consumer_secret: "YOUR API KEY SECRET HERE",
+  access_token: "YOUR ACCES TOKEN HERE",
+  access_token_secret: "YOUR ACCES TOKEN SECRET HERE",
   timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
   strictSSL: true, // optional - requires SSL certificates to be valid.
 });
